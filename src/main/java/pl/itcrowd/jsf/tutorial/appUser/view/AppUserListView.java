@@ -3,8 +3,10 @@ package pl.itcrowd.jsf.tutorial.appUser.view;
 import pl.itcrowd.jsf.tutorial.appUser.domain.AppUser;
 
 import javax.annotation.PostConstruct;
+import javax.faces.application.FacesMessage;
 import javax.faces.bean.ManagedBean;
-import javax.faces.bean.ViewScoped;
+import javax.faces.bean.SessionScoped;
+import javax.faces.context.FacesContext;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -15,14 +17,22 @@ import java.util.List;
  * Time: 1:44 PM
  * To change this template use File | Settings | File Templates.
  */
-@ViewScoped
+@SessionScoped
 @ManagedBean
 public class AppUserListView {
+    private List<AppUser> appUserList = new ArrayList<AppUser>();
+    private AppUser selectedUser = new AppUser();
+
     public AppUserListView() {
     }
-
-    private List<AppUser> appUserList=new ArrayList<AppUser>();
-
+    @PostConstruct
+    public void postConstruct() {
+        appUserList.add(new AppUser(1, "Lukasz", "aaa"));
+        appUserList.add(new AppUser(2, "Rafal", "bbb"));
+        appUserList.add(new AppUser(3, "Piotrek", "ccc"));
+        appUserList.add(new AppUser(4, "Rafal", "ddd"));
+        appUserList.add(new AppUser(5, "Marcin", "eee"));
+    }
     public List<AppUser> getAppUserList() {
         return appUserList;
     }
@@ -31,14 +41,26 @@ public class AppUserListView {
         this.appUserList = appUserList;
     }
 
-    @PostConstruct
+    public void deleteUser(AppUser appUser) {
+        if (this.appUserList.contains(appUser)) {
+            this.appUserList.remove(appUser);
+        }
+    }
 
-    public void postConstruct()
+    public AppUser getSelectedUser() {
+        return selectedUser;
+    }
+
+    public void setSelectedUser(AppUser selectedUser) {
+        this.selectedUser = selectedUser;
+    }
+
+    public void selectAppUser(AppUser appUser)
     {
-        appUserList.add(new AppUser(1,"Lukasz", "aaa"));
-        appUserList.add(new AppUser(2,"Rafal", "bbb"));
-        appUserList.add(new AppUser(3,"Piotrek", "ccc"));
-        appUserList.add(new AppUser(4,"Rafal", "ddd"));
-        appUserList.add(new AppUser(5,"Marcin", "eee"));
+        this.selectedUser = appUser;
+    }
+
+    public void addNewAppUser(){
+        this.selectedUser=new AppUser();
     }
 }

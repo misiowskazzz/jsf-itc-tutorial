@@ -5,10 +5,9 @@
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml"
-      xmlns:ui="http://java.sun.com/jsf/facelets"
       xmlns:h="http://java.sun.com/jsf/html"
-      xmlns:f="http://java.sun.com/jsf/core" >
-
+      xmlns:f="http://java.sun.com/jsf/core">
+<f:view locale="#{localeSelector.selectedLocale}"/>
 <h:head>
     <title>appUserList</title>
 </h:head>
@@ -16,6 +15,15 @@
 <h:body>
     <h3>appUserList</h3>
 
+    <h:form>
+        <h:selectOneListbox size="1" value="#{localeSelector.selectedLocale}" onchange="this.form.submit()"
+                            converter="#{localeSelector.converter}">
+            <f:selectItems value="#{localeSelector.availableLocales}" var="locale" itemValue="#{locale}"
+                           itemLabel="#{locale.displayName}"/>
+        </h:selectOneListbox>
+    </h:form>
+
+    <h:outputText value="#{messages['AppUserList.ListOfUser']}" />
     <h:form>
         <h:dataTable value="#{appUserListView.appUserList}" var="apUsr" border="1">
 
@@ -25,7 +33,7 @@
             </h:column>
 
             <h:column>
-                <f:facet name="header">imie</f:facet>
+                <f:facet name="header">#{messages['AppUserList.Name']}</f:facet>
                 #{apUsr.name}
             </h:column>
 
@@ -33,8 +41,31 @@
                 <f:facet name="header">msg</f:facet>
                 #{apUsr.msg}
             </h:column>
-
+            <h:column>
+                <f:facet name="header">#{messages['AppUserList.Delete']}</f:facet>
+                <h:commandButton value="#{messages['AppUserList.Delete']}"
+                                 action="#{appUserListView.deleteUser(apUsr)}"></h:commandButton>
+            </h:column>
+            <h:column>
+                <f:facet name="header">#{messages['AppUserList.Select']}</f:facet>
+                <h:commandButton value="#{messages['AppUserList.Select']}"
+                                 action="#{appUserListView.selectAppUser(apUsr)}"></h:commandButton>
+            </h:column>
         </h:dataTable>
+    </h:form>
+
+    <h:outputText value="#{messages['AppUserList.EditItem']}" />
+    <h:form>
+        <h:outputText value="#{messages['AppUserList.ChosenId']}" for="id"/>
+        <h:inputText value="#{appUserListView.selectedUser.id}" id="id"/>
+        <br/>
+        <h:outputText value="#{messages['AppUserList.TypeName']}" for="name"/>
+        <h:inputText value="#{appUserListView.selectedUser.name}" id="name"/>
+        <br/>
+        <h:outputText value="#{messages['AppUserList.TypeMSG']}" for="msg"/>
+        <h:inputText value="#{appUserListView.selectedUser.msg}" id="msg"></h:inputText>
+        <br/>
+        <h:commandButton value="#{messages['AppUserList.NewUser']}" action="#{appUserListView.addNewAppUser}"/>
     </h:form>
 
 </h:body>
