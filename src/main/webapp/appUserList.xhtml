@@ -66,6 +66,7 @@
         <h:inputText value="#{appUserListView.selectedUser.msg}" id="msg"></h:inputText>
         <br/>
         <h:commandButton value="#{messages['AppUserList.NewUser']}" action="#{appUserListView.addNewAppUser}"/>
+        <h:commandButton value="save" action="#{appUserListView.saveUser}"/>
     </h:form>
 
 </h:body>

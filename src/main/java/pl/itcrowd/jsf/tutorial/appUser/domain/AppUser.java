@@ -1,5 +1,7 @@
 package pl.itcrowd.jsf.tutorial.appUser.domain;
 
+import javax.validation.constraints.Min;
+import javax.validation.constraints.NotNull;
 import java.io.Serializable;
 
 /**

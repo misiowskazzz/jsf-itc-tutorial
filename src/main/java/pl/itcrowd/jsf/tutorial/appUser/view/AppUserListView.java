@@ -3,10 +3,8 @@ package pl.itcrowd.jsf.tutorial.appUser.view;
 import pl.itcrowd.jsf.tutorial.appUser.domain.AppUser;
 
 import javax.annotation.PostConstruct;
-import javax.faces.application.FacesMessage;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.SessionScoped;
-import javax.faces.context.FacesContext;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -25,6 +23,7 @@ public class AppUserListView {
 
     public AppUserListView() {
     }
+
     @PostConstruct
     public void postConstruct() {
         appUserList.add(new AppUser(1, "Lukasz", "aaa"));
@@ -33,6 +32,7 @@ public class AppUserListView {
         appUserList.add(new AppUser(4, "Rafal", "ddd"));
         appUserList.add(new AppUser(5, "Marcin", "eee"));
     }
+
     public List<AppUser> getAppUserList() {
         return appUserList;
     }
@@ -55,12 +55,17 @@ public class AppUserListView {
         this.selectedUser = selectedUser;
     }
 
-    public void selectAppUser(AppUser appUser)
-    {
+    public void selectAppUser(AppUser appUser) {
         this.selectedUser = appUser;
     }
 
-    public void addNewAppUser(){
-        this.selectedUser=new AppUser();
+    public void addNewAppUser() {
+        this.selectedUser = new AppUser();
+    }
+
+    public void saveUser() {
+        if (selectedUser != null) {
+            this.appUserList.add(selectedUser);
+        }
     }
 }
