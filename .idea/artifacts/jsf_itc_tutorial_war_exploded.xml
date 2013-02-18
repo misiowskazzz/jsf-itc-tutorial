@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="jsf-itc-tutorial:war exploded">
+    <output-path>$PROJECT_DIR$/target/jsf-itc-tutorial</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="jsf-itc-tutorial/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="jsf-itc-tutorial" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.jboss.spec.javax.el:jboss-el-api_2.2_spec:1.0.2.Final" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
