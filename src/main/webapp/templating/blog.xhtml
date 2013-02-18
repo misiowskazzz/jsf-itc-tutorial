@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                template="template/userTemplate.xhtml">
+
+    <ui:param name="pageTitle" value="blog title page" />
+
+    <ui:define name="leftMenu">
+        Blog menu content
+    </ui:define>
+
+    <ui:define name="rightMenu">
+        Blog right menu
+    </ui:define>
+
+    <ui:define name="content">
+        <ui:include src="included/recentPosts.xhtml"/>
+    </ui:define>
+
+
+</ui:composition>
