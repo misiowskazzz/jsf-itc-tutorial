@@ -4,7 +4,6 @@
     <list default="true" id="7cf688f1-cb20-4fa5-aa06-0d9adbd58857" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/itcrowd/jsf/tutorial/appUser/domain/AppUser.java" afterPath="$PROJECT_DIR$/src/main/java/pl/itcrowd/jsf/tutorial/appUser/domain/AppUser.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/appUserList.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/appUserList.xhtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="jsf-itc-tutorial.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -14,9 +13,9 @@
     <file path="/phases.xhtml" changelist="7cf688f1-cb20-4fa5-aa06-0d9adbd58857" time="1361188816305" ignored="false" />
     <file path="/PhaseBean.java" changelist="7cf688f1-cb20-4fa5-aa06-0d9adbd58857" time="1361188209068" ignored="false" />
     <file path="$PROJECT_DIR$/../pwsz-jsf/.idea/workspace.xml" changelist="7cf688f1-cb20-4fa5-aa06-0d9adbd58857" time="1361190288533" ignored="false" />
-    <file path="/AppUser.java" changelist="7cf688f1-cb20-4fa5-aa06-0d9adbd58857" time="1361263409860" ignored="false" />
+    <file path="/AppUser.java" changelist="7cf688f1-cb20-4fa5-aa06-0d9adbd58857" time="1361264342012" ignored="false" />
     <file path="/AppUserListView.java" changelist="7cf688f1-cb20-4fa5-aa06-0d9adbd58857" time="1361203297157" ignored="false" />
-    <file path="/appUserList.xhtml" changelist="7cf688f1-cb20-4fa5-aa06-0d9adbd58857" time="1361263583652" ignored="false" />
+    <file path="/appUserList.xhtml" changelist="7cf688f1-cb20-4fa5-aa06-0d9adbd58857" time="1361264177768" ignored="false" />
     <file path="/messages.properties" changelist="7cf688f1-cb20-4fa5-aa06-0d9adbd58857" time="1361194859808" ignored="false" />
     <file path="/messages_pl.properties" changelist="7cf688f1-cb20-4fa5-aa06-0d9adbd58857" time="1361202382453" ignored="false" />
     <file path="/fragment.java" changelist="7cf688f1-cb20-4fa5-aa06-0d9adbd58857" time="1361194303381" ignored="false" />
@@ -82,10 +81,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="appUserList.xhtml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="appUserList.xhtml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/appUserList.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="54" selection-start="2361" selection-end="2361" vertical-scroll-proportion="0.20802005">
+            <state line="75" column="22" selection-start="2965" selection-end="2965" vertical-scroll-proportion="-16.875">
               <folding />
             </state>
           </provider>
@@ -95,6 +94,15 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/jsf/tutorial/appUser/view/AppUserListView.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="19" column="13" selection-start="465" selection-end="465" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LocaleSelector.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/jsf/tutorial/appUser/framework/LocaleSelector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="13" selection-start="423" selection-end="423" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -139,10 +147,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppUser.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="AppUser.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/jsf/tutorial/appUser/domain/AppUser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="70" selection-start="625" selection-end="625" vertical-scroll-proportion="0.0">
+            <state line="17" column="61" selection-start="490" selection-end="490" vertical-scroll-proportion="-0.13761468">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -210,8 +218,8 @@
         <option value="$PROJECT_DIR$/src/main/resources/messages_pl.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/messages_en.properties" />
         <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/jsf/tutorial/appUser/view/AppUserListView.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/jsf/tutorial/appUser/domain/AppUser.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/appUserList.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/jsf/tutorial/appUser/domain/AppUser.java" />
       </list>
     </option>
   </component>
@@ -1020,7 +1028,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="3" width="1600" height="877" extended-state="0" />
+    <frame x="1" y="3" width="1600" height="877" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32968536" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1044,7 +1052,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24581724" sideWeight="0.6634747" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32968536" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24967825" sideWeight="0.6634747" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33652532" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33652532" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1169,13 +1177,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/jsf/tutorial/appUser/framework/LocaleSelector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="13" selection-start="423" selection-end="423" vertical-scroll-proportion="0.21276596">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="47" selection-start="785" selection-end="785" vertical-scroll-proportion="0.0">
@@ -1225,6 +1226,20 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/appUserList.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="22" selection-start="2965" selection-end="2965" vertical-scroll-proportion="-16.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/jsf/tutorial/appUser/framework/LocaleSelector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="13" selection-start="423" selection-end="423" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/jsf/tutorial/appUser/view/AppUserListView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="13" selection-start="465" selection-end="465" vertical-scroll-proportion="0.0">
@@ -1234,17 +1249,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/jsf/tutorial/appUser/domain/AppUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="70" selection-start="625" selection-end="625" vertical-scroll-proportion="0.0">
+        <state line="17" column="61" selection-start="490" selection-end="490" vertical-scroll-proportion="-0.13761468">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/appUserList.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="54" selection-start="2361" selection-end="2361" vertical-scroll-proportion="0.20802005">
-          <folding />
         </state>
       </provider>
     </entry>

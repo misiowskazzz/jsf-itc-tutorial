@@ -71,10 +71,10 @@
 
         <br/>
         <h:outputText value="#{messages['AppUserList.TypeMSG']}" for="msg"/>
-        <h:inputText value="#{appUserListView.selectedUser.msg}" id="msg"></h:inputText>
-
-
-        <h:message for="msg"/>
+        <h:inputText value="#{appUserListView.selectedUser.msg}" id="msg">
+            <f:ajax event="keyup" render="MSGValidationMsg"/>
+        </h:inputText>
+        <h:message for="msg" id="MSGValidationMsg"/>
 
         <br/>
         <h:commandButton value="#{messages['AppUserList.NewUser']}" action="#{appUserListView.addNewAppUser}"/>
