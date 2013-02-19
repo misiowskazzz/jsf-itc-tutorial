@@ -4,18 +4,22 @@
     <list default="true" id="7cf688f1-cb20-4fa5-aa06-0d9adbd58857" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/itcrowd/jsf/tutorial/appUser/view/AppUserListView.java" afterPath="$PROJECT_DIR$/src/main/java/pl/itcrowd/jsf/tutorial/appUser/view/AppUserListView.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/appUserList.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/appUserList.xhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsf-itc-tutorial.iml" afterPath="$PROJECT_DIR$/jsf-itc-tutorial.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/jsf_itc_tutorial_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/jsf_itc_tutorial_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="jsf-itc-tutorial.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="$PROJECT_DIR$/../pwsz-jsf/pom.xml" changelist="7cf688f1-cb20-4fa5-aa06-0d9adbd58857" time="1361185324497" ignored="false" />
-    <file path="/Dummy.txt" changelist="7cf688f1-cb20-4fa5-aa06-0d9adbd58857" time="1361261219502" ignored="false" />
+    <file path="/Dummy.txt" changelist="7cf688f1-cb20-4fa5-aa06-0d9adbd58857" time="1361268794799" ignored="false" />
     <file path="/faces-config.xml" changelist="7cf688f1-cb20-4fa5-aa06-0d9adbd58857" time="1361265034963" ignored="false" />
     <file path="/phases.xhtml" changelist="7cf688f1-cb20-4fa5-aa06-0d9adbd58857" time="1361188816305" ignored="false" />
     <file path="/PhaseBean.java" changelist="7cf688f1-cb20-4fa5-aa06-0d9adbd58857" time="1361188209068" ignored="false" />
     <file path="$PROJECT_DIR$/../pwsz-jsf/.idea/workspace.xml" changelist="7cf688f1-cb20-4fa5-aa06-0d9adbd58857" time="1361190288533" ignored="false" />
     <file path="/AppUser.java" changelist="7cf688f1-cb20-4fa5-aa06-0d9adbd58857" time="1361264342012" ignored="false" />
-    <file path="/AppUserListView.java" changelist="7cf688f1-cb20-4fa5-aa06-0d9adbd58857" time="1361266354268" ignored="false" />
-    <file path="/appUserList.xhtml" changelist="7cf688f1-cb20-4fa5-aa06-0d9adbd58857" time="1361267058266" ignored="false" />
+    <file path="/AppUserListView.java" changelist="7cf688f1-cb20-4fa5-aa06-0d9adbd58857" time="1361270627077" ignored="false" />
+    <file path="/appUserList.xhtml" changelist="7cf688f1-cb20-4fa5-aa06-0d9adbd58857" time="1361270836190" ignored="false" />
     <file path="/messages.properties" changelist="7cf688f1-cb20-4fa5-aa06-0d9adbd58857" time="1361194859808" ignored="false" />
     <file path="/messages_pl.properties" changelist="7cf688f1-cb20-4fa5-aa06-0d9adbd58857" time="1361202382453" ignored="false" />
     <file path="/fragment.java" changelist="7cf688f1-cb20-4fa5-aa06-0d9adbd58857" time="1361194303381" ignored="false" />
@@ -24,6 +28,17 @@
     <file path="/messages_en.properties" changelist="7cf688f1-cb20-4fa5-aa06-0d9adbd58857" time="1361202617744" ignored="false" />
     <file path="$PROJECT_DIR$/../pwsz-jsf-2/src/main/webapp/start.xhtml" changelist="7cf688f1-cb20-4fa5-aa06-0d9adbd58857" time="1361262930200" ignored="false" />
     <file path="/userAdded.xhtml" changelist="7cf688f1-cb20-4fa5-aa06-0d9adbd58857" time="1361264878040" ignored="false" />
+    <file path="$PROJECT_DIR$/../../workspace/house-helper/src/main/webapp/templates/masterTemplate.xhtml" changelist="7cf688f1-cb20-4fa5-aa06-0d9adbd58857" time="1361268511704" ignored="false" />
+    <file path="/masterTemplate.xhtml" changelist="7cf688f1-cb20-4fa5-aa06-0d9adbd58857" time="1361268494939" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/webContexts.xml" changelist="7cf688f1-cb20-4fa5-aa06-0d9adbd58857" time="1361268666295" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" changelist="7cf688f1-cb20-4fa5-aa06-0d9adbd58857" time="1361268896805" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_cssparser_cssparser_0_9_5.xml" changelist="7cf688f1-cb20-4fa5-aa06-0d9adbd58857" time="1361268896805" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/libraries/Maven__org_w3c_css_sac_1_3.xml" changelist="7cf688f1-cb20-4fa5-aa06-0d9adbd58857" time="1361268896805" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/libraries/Maven__org_richfaces_core_richfaces_core_impl_4_3_0_CR2.xml" changelist="7cf688f1-cb20-4fa5-aa06-0d9adbd58857" time="1361268896805" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/libraries/Maven__org_richfaces_core_richfaces_core_api_4_3_0_CR2.xml" changelist="7cf688f1-cb20-4fa5-aa06-0d9adbd58857" time="1361268896805" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_11_0_2.xml" changelist="7cf688f1-cb20-4fa5-aa06-0d9adbd58857" time="1361268896805" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/libraries/Maven__org_richfaces_ui_richfaces_components_ui_4_3_0_CR2.xml" changelist="7cf688f1-cb20-4fa5-aa06-0d9adbd58857" time="1361268896805" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/libraries/Maven__org_richfaces_ui_richfaces_components_api_4_3_0_CR2.xml" changelist="7cf688f1-cb20-4fa5-aa06-0d9adbd58857" time="1361268896805" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,8 +100,10 @@
       <file leaf-file-name="appUserList.xhtml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/appUserList.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="102" column="59" selection-start="4011" selection-end="4011" vertical-scroll-proportion="0.7612732">
-              <folding />
+            <state line="30" column="107" selection-start="1281" selection-end="1281" vertical-scroll-proportion="0.4827586">
+              <folding>
+                <marker date="1361270860523" expanded="true" signature="1563:1584" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -94,10 +111,10 @@
       <file leaf-file-name="AppUserListView.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/jsf/tutorial/appUser/view/AppUserListView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="87" column="31" selection-start="2211" selection-end="2211" vertical-scroll-proportion="0.0">
+            <state line="27" column="40" selection-start="689" selection-end="689" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#536#545#0" expanded="true" />
+                <element signature="e#588#597#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -174,7 +191,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="47" selection-start="785" selection-end="785" vertical-scroll-proportion="0.0">
+            <state line="47" column="21" selection-start="1711" selection-end="1711" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -214,10 +231,12 @@
       <MyDateState />
     </option>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/webapp/appUserList.xhtml" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/templating/contact.xhtml" />
         <option value="$PROJECT_DIR$/src/main/webapp/templating/home.xhtml" />
         <option value="$PROJECT_DIR$/src/main/webapp/templating/template/adminTemplate.xhtml" />
         <option value="$PROJECT_DIR$/src/main/webapp/templating/template/userTemplate.xhtml" />
@@ -231,6 +250,7 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/jsf/tutorial/appUser/domain/AppUser.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/userAdded.xhtml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/jsf/tutorial/appUser/view/AppUserListView.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/appUserList.xhtml" />
       </list>
@@ -715,6 +735,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="preferences.pluginManager" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../richfaces-training" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -1065,7 +1086,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24581724" sideWeight="0.6634747" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32968536" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24967825" sideWeight="0.6634747" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33652532" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33652532" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1183,13 +1204,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="47" selection-start="785" selection-end="785" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/jsf/tutorial/phases/PhaseListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="13" selection-start="450" selection-end="450" vertical-scroll-proportion="0.33167082">
@@ -1255,20 +1269,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="21" selection-start="1711" selection-end="1711" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/jsf/tutorial/appUser/view/AppUserListView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="31" selection-start="2211" selection-end="2211" vertical-scroll-proportion="0.0">
+        <state line="27" column="40" selection-start="689" selection-end="689" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#536#545#0" expanded="true" />
+            <element signature="e#588#597#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/appUserList.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="59" selection-start="4011" selection-end="4011" vertical-scroll-proportion="0.7612732">
-          <folding />
+        <state line="30" column="107" selection-start="1281" selection-end="1281" vertical-scroll-proportion="0.4827586">
+          <folding>
+            <marker date="1361270860523" expanded="true" signature="1563:1584" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>

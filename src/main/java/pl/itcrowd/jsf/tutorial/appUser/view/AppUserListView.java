@@ -5,6 +5,7 @@ import pl.itcrowd.jsf.tutorial.appUser.domain.AppUser;
 import javax.annotation.PostConstruct;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.SessionScoped;
+import javax.faces.bean.ViewScoped;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -15,7 +16,8 @@ import java.util.List;
  * Time: 1:44 PM
  * To change this template use File | Settings | File Templates.
  */
-@SessionScoped
+/*@SessionScoped*/
+@ViewScoped
 @ManagedBean
 public class AppUserListView {
     private List<AppUser> appUserList = new ArrayList<AppUser>();
@@ -87,4 +89,5 @@ public class AppUserListView {
     public void setCounter(int counter) {
         this.counter = counter;
     }
+
 }
