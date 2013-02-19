@@ -4,10 +4,14 @@ import pl.itcrowd.jsf.tutorial.appUser.domain.AppUser;
 
 import javax.annotation.PostConstruct;
 import javax.faces.bean.ManagedBean;
-import javax.faces.bean.SessionScoped;
 import javax.faces.bean.ViewScoped;
+import javax.faces.component.UIComponent;
+import javax.faces.context.FacesContext;
+import javax.faces.convert.Converter;
 import java.util.ArrayList;
 import java.util.List;
+
+import static java.lang.Integer.parseInt;
 
 /**
  * Created with IntelliJ IDEA.
@@ -22,6 +26,28 @@ import java.util.List;
 public class AppUserListView {
     private List<AppUser> appUserList = new ArrayList<AppUser>();
     private AppUser selectedUser = new AppUser();
+    private int counter = 1;
+
+    private Converter converter = new Converter() {
+        @Override
+        public Object getAsObject(FacesContext context, UIComponent component, String value) {
+            Integer i;
+            try{
+                i = Integer.parseInt(value);
+            }catch (NumberFormatException nfe){
+                return null;
+            }
+            for(AppUser u : appUserList){
+                if(u.getId().equals(i)) return u;
+            }
+            return null;
+        }
+
+        @Override
+        public String getAsString(FacesContext context, UIComponent component, Object value) {
+            return ((AppUser) value).getId().toString();
+        }
+    };
 
     public AppUserListView() {
     }
@@ -79,8 +105,6 @@ public class AppUserListView {
         }
         return msg;
     }
-
-    private int counter=1;
 
     public int getCounter() {
         return counter;

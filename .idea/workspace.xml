@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7cf688f1-cb20-4fa5-aa06-0d9adbd58857" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/itcrowd/jsf/tutorial/appUser/view/AppUserListView.java" afterPath="$PROJECT_DIR$/src/main/java/pl/itcrowd/jsf/tutorial/appUser/view/AppUserListView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/appUserList.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/appUserList.xhtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsf-itc-tutorial.iml" afterPath="$PROJECT_DIR$/jsf-itc-tutorial.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/jsf_itc_tutorial_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/jsf_itc_tutorial_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/itcrowd/jsf/tutorial/phases/PhaseListener.java" afterPath="$PROJECT_DIR$/src/main/java/pl/itcrowd/jsf/tutorial/phases/PhaseListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templating/included/recentPosts.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/templating/included/recentPosts.xhtml" />
     </list>
     <ignored path="jsf-itc-tutorial.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -18,7 +15,7 @@
     <file path="/PhaseBean.java" changelist="7cf688f1-cb20-4fa5-aa06-0d9adbd58857" time="1361188209068" ignored="false" />
     <file path="$PROJECT_DIR$/../pwsz-jsf/.idea/workspace.xml" changelist="7cf688f1-cb20-4fa5-aa06-0d9adbd58857" time="1361190288533" ignored="false" />
     <file path="/AppUser.java" changelist="7cf688f1-cb20-4fa5-aa06-0d9adbd58857" time="1361264342012" ignored="false" />
-    <file path="/AppUserListView.java" changelist="7cf688f1-cb20-4fa5-aa06-0d9adbd58857" time="1361270627077" ignored="false" />
+    <file path="/AppUserListView.java" changelist="7cf688f1-cb20-4fa5-aa06-0d9adbd58857" time="1361285422781" ignored="false" />
     <file path="/appUserList.xhtml" changelist="7cf688f1-cb20-4fa5-aa06-0d9adbd58857" time="1361270836190" ignored="false" />
     <file path="/messages.properties" changelist="7cf688f1-cb20-4fa5-aa06-0d9adbd58857" time="1361194859808" ignored="false" />
     <file path="/messages_pl.properties" changelist="7cf688f1-cb20-4fa5-aa06-0d9adbd58857" time="1361202382453" ignored="false" />
@@ -39,6 +36,7 @@
     <file path="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_11_0_2.xml" changelist="7cf688f1-cb20-4fa5-aa06-0d9adbd58857" time="1361268896805" ignored="false" />
     <file path="$PROJECT_DIR$/.idea/libraries/Maven__org_richfaces_ui_richfaces_components_ui_4_3_0_CR2.xml" changelist="7cf688f1-cb20-4fa5-aa06-0d9adbd58857" time="1361268896805" ignored="false" />
     <file path="$PROJECT_DIR$/.idea/libraries/Maven__org_richfaces_ui_richfaces_components_api_4_3_0_CR2.xml" changelist="7cf688f1-cb20-4fa5-aa06-0d9adbd58857" time="1361268896805" ignored="false" />
+    <file path="/AppUserConverter.java" changelist="7cf688f1-cb20-4fa5-aa06-0d9adbd58857" time="1361284773813" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,13 +95,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="appUserList.xhtml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/appUserList.xhtml">
+      <file leaf-file-name="blog.xhtml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/templating/blog.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="107" selection-start="1281" selection-end="1281" vertical-scroll-proportion="0.4827586">
+            <state line="21" column="20" selection-start="542" selection-end="542" vertical-scroll-proportion="-13.125">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppUser.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/jsf/tutorial/appUser/domain/AppUser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="0" selection-start="416" selection-end="516" vertical-scroll-proportion="0.0">
               <folding>
-                <marker date="1361270860523" expanded="true" signature="1563:1584" placeholder="{...}" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="phases.xhtml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/phases.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="0" selection-start="441" selection-end="719" vertical-scroll-proportion="-8.083333">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -111,20 +127,11 @@
       <file leaf-file-name="AppUserListView.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/jsf/tutorial/appUser/view/AppUserListView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="40" selection-start="689" selection-end="689" vertical-scroll-proportion="0.0">
+            <state line="30" column="3" selection-start="809" selection-end="809" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#588#597#0" expanded="true" />
+                <element signature="e#713#722#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LocaleSelector.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/jsf/tutorial/appUser/framework/LocaleSelector.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="13" selection-start="423" selection-end="423" vertical-scroll-proportion="0.0">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -132,7 +139,7 @@
       <file leaf-file-name="faces-config.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="44" selection-start="925" selection-end="943" vertical-scroll-proportion="-10.076923">
+            <state line="22" column="0" selection-start="795" selection-end="1086" vertical-scroll-proportion="-7.5">
               <folding />
             </state>
           </provider>
@@ -144,19 +151,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="userAdded.xhtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/userAdded.xhtml">
+      <file leaf-file-name="messages_en.properties" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/messages_en.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="27" selection-start="494" selection-end="494" vertical-scroll-proportion="-12.5">
+            <state line="4" column="0" selection-start="83" selection-end="106" vertical-scroll-proportion="-2.3076923">
               <folding />
             </state>
+          </provider>
+          <provider editor-type-id="ResourceBundle">
+            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="messages_pl.properties" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/messages_pl.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="90" vertical-scroll-proportion="0.0">
+            <state line="4" column="0" selection-start="92" selection-end="115" vertical-scroll-proportion="-2.3076923">
               <folding />
             </state>
           </provider>
@@ -165,53 +175,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="messages_en.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/messages_en.properties">
+      <file leaf-file-name="appUserList.xhtml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/appUserList.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="8" selection-start="314" selection-end="314" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="ResourceBundle">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AppUser.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/jsf/tutorial/appUser/domain/AppUser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="34" selection-start="797" selection-end="797" vertical-scroll-proportion="0.0">
+            <state line="125" column="60" selection-start="5386" selection-end="5386" vertical-scroll-proportion="0.73433584">
               <folding>
-                <element signature="imports" expanded="true" />
+                <marker date="1361270860523" expanded="true" signature="1563:1584" placeholder="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="userAdded.xhtml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/userAdded.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="21" selection-start="1711" selection-end="1711" vertical-scroll-proportion="0.0">
+            <state line="17" column="39" selection-start="474" selection-end="474" vertical-scroll-proportion="-10.625">
               <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-            <state />
-          </provider>
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-            <state />
-          </provider>
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-            <state />
           </provider>
         </entry>
       </file>
@@ -237,9 +217,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/templating/home.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/templating/template/adminTemplate.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/templating/template/userTemplate.xhtml" />
         <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/jsf/tutorial/AppUser/AppUser.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/ppUserList.xhtml" />
         <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/jsf/tutorial/AppUser/AppUserListView.java" />
@@ -251,8 +228,11 @@
         <option value="$PROJECT_DIR$/src/main/webapp/userAdded.xhtml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/jsf/tutorial/appUser/view/AppUserListView.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/appUserList.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/jsf/tutorial/phases/PhaseListener.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/templating/included/recentPosts.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/jsf/tutorial/appUser/framework/AppUserConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/jsf/tutorial/appUser/view/AppUserListView.java" />
       </list>
     </option>
   </component>
@@ -326,8 +306,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1" />
-    <option name="y" value="3" />
+    <option name="y" value="1" />
     <option name="width" value="1600" />
     <option name="height" value="877" />
   </component>
@@ -730,6 +709,7 @@
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Facets" />
     <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="OverrideImplement.combined" value="false" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
@@ -1062,9 +1042,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="3" width="1600" height="877" extended-state="0" />
+    <frame x="0" y="1" width="1600" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" x="29" y="45" width="1400" height="677" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32968536" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1086,7 +1067,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24581724" sideWeight="0.6634747" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32968536" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24967825" sideWeight="0.6634747" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33652532" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33652532" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1155,20 +1136,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/templating/contact.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="39" selection-end="39" vertical-scroll-proportion="-0.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/templating/home.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="39" selection-end="39" vertical-scroll-proportion="-0.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/templating/template/adminTemplate.xhtml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="0" selection-start="39" selection-end="39" vertical-scroll-proportion="-0.625">
@@ -1178,54 +1145,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/templating/template/userTemplate.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="39" selection-end="39" vertical-scroll-proportion="-0.625">
+        <state line="15" column="39" selection-start="384" selection-end="384" vertical-scroll-proportion="-7.5">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/templating/included/recentPosts.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="644" selection-end="644" vertical-scroll-proportion="-11.458333" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/templating/home.xhtml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-        <state />
-      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/jsf/tutorial/phases/PhaseListener.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/templating/contact.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="13" selection-start="450" selection-end="450" vertical-scroll-proportion="0.33167082">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/messages_pl.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="90" vertical-scroll-proportion="-0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="ResourceBundle">
-        <state />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/templating/blogAdmin.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="2.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/templating/aboutUs.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/templating/blog.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="20" selection-start="542" selection-end="542" vertical-scroll-proportion="-13.125">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/messages_en.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="8" selection-start="314" selection-end="314" vertical-scroll-proportion="0.0">
+        <state line="4" column="0" selection-start="83" selection-end="106" vertical-scroll-proportion="-2.3076923">
           <folding />
         </state>
       </provider>
@@ -1233,25 +1195,33 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/jsf/tutorial/appUser/framework/LocaleSelector.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/messages_pl.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="13" selection-start="423" selection-end="423" vertical-scroll-proportion="0.0">
+        <state line="4" column="0" selection-start="92" selection-end="115" vertical-scroll-proportion="-2.3076923">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/phases.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="441" selection-end="719" vertical-scroll-proportion="-8.083333">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/jsf/tutorial/appUser/domain/AppUser.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/userAdded.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="34" selection-start="797" selection-end="797" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="17" column="39" selection-start="474" selection-end="474" vertical-scroll-proportion="-10.625">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="44" selection-start="925" selection-end="943" vertical-scroll-proportion="-10.076923">
+        <state line="22" column="0" selection-start="795" selection-end="1086" vertical-scroll-proportion="-7.5">
           <folding />
         </state>
       </provider>
@@ -1262,33 +1232,28 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/userAdded.xhtml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/jsf/tutorial/appUser/domain/AppUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="27" selection-start="494" selection-end="494" vertical-scroll-proportion="-12.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="21" selection-start="1711" selection-end="1711" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="16" column="0" selection-start="416" selection-end="516" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/jsf/tutorial/appUser/view/AppUserListView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="40" selection-start="689" selection-end="689" vertical-scroll-proportion="0.0">
+        <state line="30" column="3" selection-start="809" selection-end="809" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#588#597#0" expanded="true" />
+            <element signature="e#713#722#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/appUserList.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="107" selection-start="1281" selection-end="1281" vertical-scroll-proportion="0.4827586">
+        <state line="125" column="60" selection-start="5386" selection-end="5386" vertical-scroll-proportion="0.73433584">
           <folding>
             <marker date="1361270860523" expanded="true" signature="1563:1584" placeholder="{...}" />
           </folding>
