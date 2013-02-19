@@ -10,6 +10,9 @@
 <f:view locale="#{localeSelector.selectedLocale}"/>
 <h:head>
     <title>appUserList</title>
+    <f:metadata>
+        <f:viewParam name="counter" value="#{appUserListView.counter}"/>
+    </f:metadata>
 </h:head>
 
 <h:body>
@@ -86,6 +89,18 @@
         <h:outputText value="Navigation"/>
         <h:commandButton value="saveAndShowStatus" action="#{appUserListView.saveAndTestNavigation}"/>
         <h:commandButton value="justTestNavigation" action="/userAdded"/>
+    </h:form>
+
+    <h:form>
+        <br/>
+        <h:outputText value="param counter"/>
+        <h:link value="-|-take one-|-">
+            <f:param name="counter" value="#{appUserListView.counter-1}" />
+        </h:link>
+        <h:link value="-|-add one-|-">
+            <f:param name="counter" value="#{appUserListView.counter+1}"/>
+        </h:link>
+        <h:outputText value="#{appUserListView.counter}" />
     </h:form>
 </h:body>
 
