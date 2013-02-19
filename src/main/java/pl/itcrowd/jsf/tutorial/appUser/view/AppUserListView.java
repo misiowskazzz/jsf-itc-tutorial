@@ -114,4 +114,7 @@ public class AppUserListView {
         this.counter = counter;
     }
 
+    public Converter getConverter() {
+        return converter;
+    }
 }

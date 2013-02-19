@@ -4,8 +4,9 @@
         PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:h="http://java.sun.com/jsf/html" xmlns:ui="http://java.sun.com/jsf/facelets"
-      xmlns:f="http://java.sun.com/jsf/core" xmlns:rich="http://richfaces.org/rich" xmlns:a4j="http://richfaces.org/a4j">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core" xmlns:rich="http://richfaces.org/rich"
+        >
 
 <f:view locale="#{localeSelector.selectedLocale}"/>
 <h:head>
@@ -23,28 +24,29 @@
             <rich:dropDownMenu mode="ajax">
                 <f:facet name="label">
                     <h:panelGroup>
-                        <h:graphicImage value="/images/icons/copy.gif" styleClass="pic" alt="copy" />
-                        <h:outputText value="File" />
+                        <h:graphicImage value="/images/icons/copy.gif" styleClass="pic" alt="copy"/>
+                        <h:outputText value="File"/>
                     </h:panelGroup>
                 </f:facet>
                 <rich:menuItem label="New" action="#{appUserListView.addNewAppUser}" render="appUserInputData"/>
                 <rich:menuItem label="Save" action="#{appUserListView.saveUser}" render="appUserDataTable">
                 </rich:menuItem>
-                <rich:menuItem label="Exit" />
+                <rich:menuItem label="Exit"/>
             </rich:dropDownMenu>
 
             <rich:dropDownMenu mode="ajax">
                 <f:facet name="label">
                     <h:panelGrid cellpadding="0" cellspacing="0" columns="2" style="vertical-align:middle">
-                        <h:outputText value="Links" />
+                        <h:outputText value="Links"/>
                     </h:panelGrid>
                 </f:facet>
-                <rich:menuItem submitMode="client" onclick="document.location.href='http://labs.jboss.com/jbossrichfaces/'">
-                    <h:outputText value="RichFaces Home Page" />
+                <rich:menuItem submitMode="client"
+                               onclick="document.location.href='http://labs.jboss.com/jbossrichfaces/'">
+                    <h:outputText value="RichFaces Home Page"/>
                 </rich:menuItem>
                 <rich:menuItem submitMode="client"
                                onclick="document.location.href='http://jboss.com/index.html?module=bb&amp;op=viewforum&amp;f=261'">
-                    <h:outputText value="RichFaces Forum" />
+                    <h:outputText value="RichFaces Forum"/>
                 </rich:menuItem>
             </rich:dropDownMenu>
         </rich:toolbar>
@@ -135,7 +137,15 @@
         <h:outputText value="#{appUserListView.counter}"/>
     </h:form>
 
-
+    <h:form>
+        <h:selectOneMenu value="#{appUserListView.selectedUser}"
+                         converter="#{appUserListView.converter}">
+            <f:selectItems value="#{appUserListView.appUserList}"
+                           var="appUser" itemLabel="#{appUser.name}"
+                           itemValue="#{appUser}"/>
+        </h:selectOneMenu>
+        <h:commandButton value="converter"/>
+    </h:form>
 
 </h:body>
 
