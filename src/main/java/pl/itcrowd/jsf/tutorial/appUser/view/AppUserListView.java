@@ -68,4 +68,13 @@ public class AppUserListView {
             this.appUserList.add(selectedUser);
         }
     }
+
+    public String saveAndTestNavigation() {
+        String msg = "";
+        if (selectedUser != null) {
+            this.appUserList.add(selectedUser);
+            msg = "successfully_added";
+        }
+        return msg;
+    }
 }

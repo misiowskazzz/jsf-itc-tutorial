@@ -65,7 +65,7 @@
         <br/>
         <h:outputText value="#{messages['AppUserList.TypeName']}" for="name"/>
         <h:inputText value="#{appUserListView.selectedUser.name}" id="name"
-            required="true" requiredMessage="field is req">
+                     required="true" requiredMessage="field is req">
         </h:inputText>
         <h:message for="name"/>
 
@@ -80,7 +80,13 @@
         <h:commandButton value="#{messages['AppUserList.NewUser']}" action="#{appUserListView.addNewAppUser}"/>
         <h:commandButton value="save" action="#{appUserListView.saveUser}"/>
     </h:form>
+    <br/>
 
+    <h:form>
+        <h:outputText value="Navigation"/>
+        <h:commandButton value="saveAndShowStatus" action="#{appUserListView.saveAndTestNavigation}"/>
+        <h:commandButton value="justTestNavigation" action="/userAdded"/>
+    </h:form>
 </h:body>
 
 </html>

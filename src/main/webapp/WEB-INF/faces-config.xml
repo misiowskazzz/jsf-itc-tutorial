@@ -20,6 +20,14 @@
         </resource-bundle>
     </application>
 
+    <navigation-rule>
+        <from-view-id>/appUserList.xhtml</from-view-id>
+        <navigation-case>
+            <from-outcome>successfully_added</from-outcome>
+            <to-view-id>/userAdded.xhtml</to-view-id>
+            <redirect/>
+        </navigation-case>
+    </navigation-rule>
 
 </faces-config>
 

@@ -2,20 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7cf688f1-cb20-4fa5-aa06-0d9adbd58857" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/itcrowd/jsf/tutorial/appUser/domain/AppUser.java" afterPath="$PROJECT_DIR$/src/main/java/pl/itcrowd/jsf/tutorial/appUser/domain/AppUser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/itcrowd/jsf/tutorial/appUser/view/AppUserListView.java" afterPath="$PROJECT_DIR$/src/main/java/pl/itcrowd/jsf/tutorial/appUser/view/AppUserListView.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/appUserList.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/appUserList.xhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml" />
     </list>
     <ignored path="jsf-itc-tutorial.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="$PROJECT_DIR$/../pwsz-jsf/pom.xml" changelist="7cf688f1-cb20-4fa5-aa06-0d9adbd58857" time="1361185324497" ignored="false" />
     <file path="/Dummy.txt" changelist="7cf688f1-cb20-4fa5-aa06-0d9adbd58857" time="1361261219502" ignored="false" />
-    <file path="/faces-config.xml" changelist="7cf688f1-cb20-4fa5-aa06-0d9adbd58857" time="1361200800063" ignored="false" />
+    <file path="/faces-config.xml" changelist="7cf688f1-cb20-4fa5-aa06-0d9adbd58857" time="1361265034963" ignored="false" />
     <file path="/phases.xhtml" changelist="7cf688f1-cb20-4fa5-aa06-0d9adbd58857" time="1361188816305" ignored="false" />
     <file path="/PhaseBean.java" changelist="7cf688f1-cb20-4fa5-aa06-0d9adbd58857" time="1361188209068" ignored="false" />
     <file path="$PROJECT_DIR$/../pwsz-jsf/.idea/workspace.xml" changelist="7cf688f1-cb20-4fa5-aa06-0d9adbd58857" time="1361190288533" ignored="false" />
     <file path="/AppUser.java" changelist="7cf688f1-cb20-4fa5-aa06-0d9adbd58857" time="1361264342012" ignored="false" />
-    <file path="/AppUserListView.java" changelist="7cf688f1-cb20-4fa5-aa06-0d9adbd58857" time="1361203297157" ignored="false" />
-    <file path="/appUserList.xhtml" changelist="7cf688f1-cb20-4fa5-aa06-0d9adbd58857" time="1361264177768" ignored="false" />
+    <file path="/AppUserListView.java" changelist="7cf688f1-cb20-4fa5-aa06-0d9adbd58857" time="1361265157883" ignored="false" />
+    <file path="/appUserList.xhtml" changelist="7cf688f1-cb20-4fa5-aa06-0d9adbd58857" time="1361266076637" ignored="false" />
     <file path="/messages.properties" changelist="7cf688f1-cb20-4fa5-aa06-0d9adbd58857" time="1361194859808" ignored="false" />
     <file path="/messages_pl.properties" changelist="7cf688f1-cb20-4fa5-aa06-0d9adbd58857" time="1361202382453" ignored="false" />
     <file path="/fragment.java" changelist="7cf688f1-cb20-4fa5-aa06-0d9adbd58857" time="1361194303381" ignored="false" />
@@ -23,6 +24,7 @@
     <file path="$PROJECT_DIR$/../pwsz-jsf-2/src/main/webapp/WEB-INF/faces-config.xml" changelist="7cf688f1-cb20-4fa5-aa06-0d9adbd58857" time="1361196916529" ignored="false" />
     <file path="/messages_en.properties" changelist="7cf688f1-cb20-4fa5-aa06-0d9adbd58857" time="1361202617744" ignored="false" />
     <file path="$PROJECT_DIR$/../pwsz-jsf-2/src/main/webapp/start.xhtml" changelist="7cf688f1-cb20-4fa5-aa06-0d9adbd58857" time="1361262930200" ignored="false" />
+    <file path="/userAdded.xhtml" changelist="7cf688f1-cb20-4fa5-aa06-0d9adbd58857" time="1361264878040" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,10 +83,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="appUserList.xhtml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="appUserList.xhtml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/appUserList.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="75" column="22" selection-start="2965" selection-end="2965" vertical-scroll-proportion="-16.875">
+            <state line="85" column="42" selection-start="3312" selection-end="3312" vertical-scroll-proportion="0.56233424">
               <folding />
             </state>
           </provider>
@@ -93,8 +95,11 @@
       <file leaf-file-name="AppUserListView.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/jsf/tutorial/appUser/view/AppUserListView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="13" selection-start="465" selection-end="465" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="71" column="18" selection-start="1837" selection-end="1837" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#536#545#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -111,7 +116,7 @@
       <file leaf-file-name="faces-config.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="25" selection-start="733" selection-end="741" vertical-scroll-proportion="0.0">
+            <state line="25" column="44" selection-start="925" selection-end="943" vertical-scroll-proportion="-10.076923">
               <folding />
             </state>
           </provider>
@@ -120,6 +125,15 @@
           </provider>
           <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider">
             <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="userAdded.xhtml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/userAdded.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="27" selection-start="494" selection-end="494" vertical-scroll-proportion="-12.5">
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -147,10 +161,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppUser.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AppUser.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/jsf/tutorial/appUser/domain/AppUser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="61" selection-start="490" selection-end="490" vertical-scroll-proportion="-0.13761468">
+            <state line="34" column="34" selection-start="797" selection-end="797" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -204,7 +218,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/templating/blogAdmin.xhtml" />
         <option value="$PROJECT_DIR$/src/main/webapp/templating/contact.xhtml" />
         <option value="$PROJECT_DIR$/src/main/webapp/templating/home.xhtml" />
         <option value="$PROJECT_DIR$/src/main/webapp/templating/template/adminTemplate.xhtml" />
@@ -214,12 +227,13 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/jsf/tutorial/AppUser/AppUserListView.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/jsf/tutorial/appUser/framework/LocaleSelector.java" />
         <option value="$PROJECT_DIR$/src/main/resources/messages.properties" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/messages_pl.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/messages_en.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/jsf/tutorial/appUser/domain/AppUser.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/userAdded.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml" />
         <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/jsf/tutorial/appUser/view/AppUserListView.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/appUserList.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/jsf/tutorial/appUser/domain/AppUser.java" />
       </list>
     </option>
   </component>
@@ -718,9 +732,9 @@
       <recent name="pl.itcrowd.jsf.tutorial.appUser.framework" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main/resources/Resource Bundle 'messages'" />
-      <recent name="$PROJECT_DIR$/src/main/webapp" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
     </key>
@@ -1121,13 +1135,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/templating/blogAdmin.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="39" selection-end="39" vertical-scroll-proportion="-0.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/templating/contact.xhtml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="0" selection-start="39" selection-end="39" vertical-scroll-proportion="-0.625">
@@ -1193,19 +1200,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="25" selection-start="733" selection-end="741" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.jsf.ui.FacesConfigEditorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/messages_pl.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="90" vertical-scroll-proportion="-0.0">
@@ -1226,13 +1220,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/appUserList.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="22" selection-start="2965" selection-end="2965" vertical-scroll-proportion="-16.875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/jsf/tutorial/appUser/framework/LocaleSelector.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="13" selection-start="423" selection-end="423" vertical-scroll-proportion="0.0">
@@ -1240,19 +1227,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/jsf/tutorial/appUser/view/AppUserListView.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/jsf/tutorial/appUser/domain/AppUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="13" selection-start="465" selection-end="465" vertical-scroll-proportion="0.0">
+        <state line="34" column="34" selection-start="797" selection-end="797" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="44" selection-start="925" selection-end="943" vertical-scroll-proportion="-10.076923">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.jsf.ui.FacesConfigEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/userAdded.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="27" selection-start="494" selection-end="494" vertical-scroll-proportion="-12.5">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/jsf/tutorial/appUser/domain/AppUser.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/jsf/tutorial/appUser/view/AppUserListView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="61" selection-start="490" selection-end="490" vertical-scroll-proportion="-0.13761468">
+        <state line="71" column="18" selection-start="1837" selection-end="1837" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#536#545#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/appUserList.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="42" selection-start="3312" selection-end="3312" vertical-scroll-proportion="0.56233424">
+          <folding />
         </state>
       </provider>
     </entry>
