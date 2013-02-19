@@ -1,5 +1,6 @@
 package pl.itcrowd.jsf.tutorial.appUser.domain;
 
+import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
 import java.io.Serializable;
@@ -14,6 +15,9 @@ import java.io.Serializable;
 public class AppUser implements Serializable {
     private Integer id;
     private String name;
+    @NotNull
+    @Min(value = 3, message = "field is to short")
+    @Max(value = 10, message = "field is to long")
     private String msg;
 
     public AppUser() {

@@ -23,7 +23,7 @@
         </h:selectOneListbox>
     </h:form>
 
-    <h:outputText value="#{messages['AppUserList.ListOfUser']}" />
+    <h:outputText value="#{messages['AppUserList.ListOfUser']}"/>
     <h:form>
         <h:dataTable value="#{appUserListView.appUserList}" var="apUsr" border="1">
 
@@ -54,16 +54,28 @@
         </h:dataTable>
     </h:form>
 
-    <h:outputText value="#{messages['AppUserList.EditItem']}" />
+    <h:outputText value="#{messages['AppUserList.EditItem']}"/>
     <h:form>
         <h:outputText value="#{messages['AppUserList.ChosenId']}" for="id"/>
-        <h:inputText value="#{appUserListView.selectedUser.id}" id="id"/>
+        <h:inputText value="#{appUserListView.selectedUser.id}" id="id"
+                     required="true" requiredMessage="field is req">
+        </h:inputText>
+        <h:message for="id"/>
+
         <br/>
         <h:outputText value="#{messages['AppUserList.TypeName']}" for="name"/>
-        <h:inputText value="#{appUserListView.selectedUser.name}" id="name"/>
+        <h:inputText value="#{appUserListView.selectedUser.name}" id="name"
+            required="true" requiredMessage="field is req">
+        </h:inputText>
+        <h:message for="name"/>
+
         <br/>
         <h:outputText value="#{messages['AppUserList.TypeMSG']}" for="msg"/>
         <h:inputText value="#{appUserListView.selectedUser.msg}" id="msg"></h:inputText>
+
+
+        <h:message for="msg"/>
+
         <br/>
         <h:commandButton value="#{messages['AppUserList.NewUser']}" action="#{appUserListView.addNewAppUser}"/>
         <h:commandButton value="save" action="#{appUserListView.saveUser}"/>
