@@ -26,9 +26,6 @@ public class PhaseListener implements javax.faces.event.PhaseListener{
 
     @Override
     public void beforePhase(PhaseEvent phaseEvent) {
-        ELContext elContext = FacesContext.getCurrentInstance().getELContext();
-        ExpressionFactory expressionFactory =
-                FacesContext.getCurrentInstance().getApplication().getExpressionFactory();
         LOGGER.info("BEFORE:" + phaseEvent.getPhaseId());
     }
 

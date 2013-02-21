@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Created by IntelliJ IDEA.
+  User: rafal
+  Date: 1/23/13
+  Time: 11:09 AM
+-->
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html" xmlns:f="http://java.sun.com/jsf/core">
+
+<h:head>
+    <title>Welcome!</title>
+</h:head>
+<h:body>
+    <h:form id="form">
+        <h:inputText id="input1"/>
+        <h:button id="start" title="Start" value="Start" outcome="index"/>
+        <h:commandButton id="addComponent" action="#{simpleBean.addComponent()}"/>
+    </h:form>
+    <h:form id="f">
+        <h:commandButton value="Simple submit"/>
+        <h:inputText binding="#{simpleBean.customInput}">
+            <f:convertNumber integerOnly="true"/>
+            <f:validateLongRange maximum="3"/>
+        </h:inputText>
+    </h:form>
+    <pre>
+        #{simpleBean.getTree()}
+    </pre>
+</h:body>
+</html>

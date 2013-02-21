@@ -24,7 +24,6 @@
             <rich:dropDownMenu mode="ajax">
                 <f:facet name="label">
                     <h:panelGroup>
-                        <h:graphicImage value="/images/icons/copy.gif" styleClass="pic" alt="copy"/>
                         <h:outputText value="File"/>
                     </h:panelGroup>
                 </f:facet>
@@ -90,6 +89,46 @@
             </h:column>
         </h:dataTable>
     </h:form>
+    <!--popup-->
+    <h:form>
+        <h:commandButton value="Call the popup">
+            <rich:componentControl target="popup" operation="show"/>
+        </h:commandButton>
+        <rich:popupPanel id="popup" modal="false" autosized="true" resizeable="false">
+            <f:facet name="header">
+                <h:outputText value="#{messages['AppUserList.EditItem']}"/>
+            </f:facet>
+            <f:facet name="controls">
+                <h:outputLink value="#" onclick="#{rich:component('popup')}.hide(); return false;">
+                    X
+                </h:outputLink>
+            </f:facet>
+
+            <h:outputText value="#{messages['AppUserList.ChosenId']}" for="id"/>
+            <h:inputText value="#{appUserListView.selectedUser.id}" id="id"
+                         required="true" requiredMessage="field is req">
+            </h:inputText>
+            <h:message for="id"/>
+
+            <br/>
+            <h:outputText value="#{messages['AppUserList.TypeName']}" for="name"/>
+            <h:inputText value="#{appUserListView.selectedUser.name}" id="name"
+                         required="true" requiredMessage="field is req">
+            </h:inputText>
+            <h:message for="name"/>
+
+            <br/>
+            <h:outputText value="#{messages['AppUserList.TypeMSG']}" for="msg"/>
+            <h:inputText value="#{appUserListView.selectedUser.msg}" id="msg">
+                <f:ajax event="keyup" render="MSGValidationMsg"/>
+            </h:inputText>
+            <h:message for="msg" id="MSGValidationMsg"/>
+            <br/>
+            <h:commandButton value="save" action="#{appUserListView.saveUser}"/>
+            <h:commandButton value="#{messages['AppUserList.NewUser']}" action="#{appUserListView.addNewAppUser}"/>
+        </rich:popupPanel>
+    </h:form>
+    <!--popup-->
 
     <h:outputText value="#{messages['AppUserList.EditItem']}"/>
     <h:form id="appUserInputData">
@@ -146,6 +185,7 @@
         </h:selectOneMenu>
         <h:commandButton value="converter"/>
     </h:form>
+
 
 </h:body>
 
