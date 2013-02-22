@@ -98,12 +98,14 @@ public class AppUserListView {
     }
 
     public String saveAndTestNavigation() {
-        String msg = "";
         if (selectedUser != null) {
             this.appUserList.add(selectedUser);
-            msg = "successfully_added";
+            return "successfully_added";
         }
-        return msg;
+        return "";
+    }
+    public String moveToPage2(){
+        return "page2"; //outcome
     }
 
     public int getCounter() {

@@ -15,10 +15,10 @@
 <h:body>
     <h3>Phases</h3>
     <h:form>
-        <h:inputText value="#{phaseBean.name}" id="inputTextPhases">
+        <h:inputText value="#{dataBean.name}" id="inputText">
             <f:ajax execute="inputTextPhases" render="outputTextPhases" event="keyup"/>
         </h:inputText>
-        <h:outputText value="#{phaseBean.name}" id="outputTextPhases"/>
+        <h:outputText value="#{dataBean.name}" id="outputText"/>
     </h:form>
 </h:body>
 </html>
